@@ -11,7 +11,7 @@ function Layout({ children }) {
                 <div className="w-52">
                     <Sidebar />
                 </div>
-                <div className="w-full">{children}</div>
+                <div className="w-full ml-7">{children}</div>
             </main>
             <Footer />
         </>
