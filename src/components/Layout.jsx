@@ -7,9 +7,11 @@ function Layout({ children }) {
     return (
         <>
             <Navbar />
-            <main>
-                <Sidebar />
-                <div>{children}</div>
+            <main className="flex justify-start items-start w-full">
+                <div className="w-52">
+                    <Sidebar />
+                </div>
+                <div className="w-full">{children}</div>
             </main>
             <Footer />
         </>

@@ -2,7 +2,7 @@ import React from "react";
 import { FcCommandLine } from "react-icons/fc";
 import { Link } from "react-router-dom";
 import profileImage from "../assets/images/profile.png";
-import { navbarIcons } from "./utils/navbarIcons";
+import { navbarIcons } from "../utils/navbarIcons";
 function Navbar() {
     return (
         <nav className="bg-gray-900 p-3 flex justify-between items-center text-zinc-100">
